@@ -1,0 +1,38 @@
+.Header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spaceBlocks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.space {
+    display: inline-flex;
+    gap: 12px;
+    width: auto;
+    align-items: center;
+}
+
+.balance {
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #5047d7;
+    color: whitesmoke;
+    padding: 2px 5px;
+}
+
+.username {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}

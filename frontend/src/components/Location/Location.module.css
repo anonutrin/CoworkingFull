@@ -1,0 +1,93 @@
+.mainTitle {
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 600;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: "Aeroport", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.locationBlock{
+    padding: 20px;
+}
+
+.cardsBlock {
+    margin: 25px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.loadMoreBtn {
+    border-radius: 15px;
+    padding: 7px 20px;
+    border: none;
+}
+
+.mapBtn a {
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+
+.mapBtn {
+    position: fixed;
+    border-radius: 30px;
+    width: 120px;
+    height: 39px;
+    background-color: #f5f52f;
+    bottom: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Aeroport", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.filterBtn {
+    display: block;
+    font-size: 14px;
+}
+
+.filtAndTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filtAndTitle a {
+    text-decoration: none;
+    color: black;
+    border: black solid 1px;
+    padding: 3px 7px;
+    border-radius: 10px;
+}
+
+.filtAndTitle a:hover {
+    cursor: pointer;
+}
+
+.filterBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Промежуток между элементами */
+}
+
+.filterCat label,
+.filterPrice label {
+  margin-bottom: 5px; /* Добавляем небольшой отступ между меткой и полем */
+}
+
+.filterCat select,
+.filterPrice input {
+  width: 100%; /* Растягиваем элементы на всю доступную ширину */
+  padding: 8px; /* Добавляем отступы внутри элементов */
+  border: 1px solid #ccc; /* Добавляем рамку */
+  border-radius: 4px; /* Закругляем углы */
+  box-sizing: border-box; /* Учитываем рамку и отступы внутри ширины */
+}

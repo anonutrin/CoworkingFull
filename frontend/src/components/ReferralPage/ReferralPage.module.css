@@ -1,0 +1,14 @@
+.referralBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageBlock {
+    max-width: 350px;
+    width: 350px;
+}
+
+.userInfo {
+    text-align: left;
+}
